@@ -1,0 +1,18 @@
+2025-12-06 23:18:27,184 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-06 23:18:53,548 - MLPipeline - INFO - Starting data preparation
+2025-12-06 23:18:53,747 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-06 23:19:23,339 - MLPipeline - INFO - Starting model training
+2025-12-06 23:19:24,067 - MLPipeline - INFO - Model training completed
+2025-12-06 23:19:24,068 - MLPipeline - INFO - Evaluating model
+2025-12-06 23:19:24,127 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-06 23:20:12,353 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_model.joblib'
+2025-12-06 23:21:07,254 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_models.joblib'
+2025-12-06 23:21:25,296 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
+2025-12-06 23:26:03,576 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Notebooks/Models/day1_Models.joblib'
+2025-12-06 23:26:45,323 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'ML ENGINEER JOURNEY/Models/day1_Models.joblib'
+2025-12-06 23:27:02,327 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'ML ENGINEER JOURNEY/Notebooks/Models/day1_Models.joblib'
+2025-12-06 23:28:27,955 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'ML ENGINEER JOURNEY/Models/day1_Models.joblib'
+2025-12-06 23:30:09,229 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
+2025-12-06 23:31:38,851 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
+2025-12-06 23:32:46,142 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
+2025-12-06 23:36:03,815 - MLPipeline - INFO - Model saved to ../Models/day1_Models.joblib
