@@ -29,3 +29,22 @@ A reusable machine learning workflow template built with `scikit-learn`.
 /data # Sample datasets
 /models # Saved ML models/templates
 /notebooks # Exploratory analysis or experiments
+
+
+---
+
+## Upcoming Additions
+
+### Automated Data Cleaning Tool
+- A script for preprocessing CSV datasets automatically  
+- Features:
+  - Handle missing values  
+  - Remove duplicates  
+  - Detect outliers  
+  - Generate summary reports  
+- Optional: Streamlit interface for interactive use
+
+---
+
+This repository is intended to demonstrate **hands-on ML skills**, **clean project structure**, and **reusable tools** that can be applied to real-world projects.
+
