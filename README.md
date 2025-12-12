@@ -1,49 +1,54 @@
-ML Engineer Portfolio — Month 1
+🧠 ML Engineer Portfolio — Month 1
 
-This repository showcases ML projects and reusable tools I’ve developed to build a strong foundation in machine learning engineering.
-The focus is on creating flexible pipelines and scripts that can be applied to a variety of datasets, with automated data cleaning and exploratory data analysis (EDA).
 
-Completed Projects / Tools
-1. ML Pipeline Template
+
+
+
+
+This repository demonstrates my hands-on Machine Learning Engineering skills by building flexible, reusable pipelines and tools.
+The focus is on automating common ML tasks such as data cleaning, exploratory data analysis (EDA), and model pipelines.
+
+🚀 Completed Projects / Tools
+1️⃣ ML Pipeline Template
 
 Location: tools/pipeline_template.py
 
-A reusable machine learning workflow template built with scikit-learn.
+A reusable scikit-learn workflow template for ML projects.
 
 Features:
 
 Load CSV datasets
 
-Preprocess data (scaling, encoding, handling missing values)
+Preprocess data (scaling, encoding, handle missing values)
 
 Train/test split
 
 Model training and evaluation metrics
 
 Purpose:
-Provides a consistent structure for building and testing ML models across different datasets, saving time and ensuring best practices.
+Provides a consistent ML workflow for building and testing models across datasets, saving time and ensuring best practices.
 
-2. 🧹 Auto Data Cleaner
+2️⃣ Auto Data Cleaner 🧹
 
 Location: tools/Auto_cleaner.py
 
-A small tool that cleans messy CSV files automatically.
+Automatically cleans messy CSV files and generates a data-quality report.
 
 Features:
 
-Fills missing numeric values using the column mean
+Fill missing numeric values with column mean
 
-Fills missing categorical values using the most frequent category
+Fill missing categorical values with the most frequent category
 
-Removes duplicate rows
+Remove duplicate rows
 
-Detects and removes outliers using IQR
+Detect and remove outliers using IQR
 
-Generates a data-quality report
+Generate a JSON report of cleaning operations
 
-Saves both cleaned data and a JSON report
+Save cleaned data for downstream tasks
 
-How It Works:
+Usage Example:
 
 from Auto_cleaner import AutoDataCleaner
 
@@ -51,29 +56,27 @@ cleaner = AutoDataCleaner("data/sample_data.csv")
 report = cleaner.run_cleaning()
 
 
-This automatically creates:
+Generates:
 
 data/cleaned_data.csv
 
 reports/cleaning_report.json
 
-3. 🔍 Automated EDA App
+3️⃣ Automated EDA App 🔍
 
 Location: auto_eda_app.py
 
-An interactive Streamlit app that performs automated exploratory data analysis on CSV or Excel datasets.
+An interactive Streamlit app for automated exploratory data analysis on CSV or Excel datasets.
 
 Features:
 
-Load CSV or Excel files
-
-Display raw data
+Upload and preview datasets
 
 Generate statistical summaries for numeric and categorical columns
 
 Display categorical value counts interactively
 
-Automatically generate visualizations:
+Generate visualizations:
 
 Histograms (numeric columns)
 
@@ -81,19 +84,15 @@ Boxplots (numeric columns)
 
 Correlation heatmaps
 
-Optional selection of which visualizations to generate
+Optional selection of visualizations to generate
 
-Download the full EDA report as a ZIP file containing CSV summaries and plots
+Download the full EDA report as a ZIP containing CSV summaries and plots
 
-How It Works:
-Run the Streamlit app:
+Usage:
 
 streamlit run auto_eda_app.py
 
-
-Upload your dataset, select visualizations, and view results interactively. The complete EDA report can be downloaded as a ZIP for offline use or sharing.
-
-Project Structure
+🗂 Project Structure
 /projects   # Future mini-projects
 /tools      # Scripts, Auto_cleaner, pipeline templates
 /data       # Sample datasets
@@ -101,12 +100,28 @@ Project Structure
 /notebooks  # Exploratory analysis or experiments
 /reports    # Data cleaning or EDA reports
 
-Purpose of This Repository
+🎯 Purpose of This Repository
 
 Demonstrate hands-on ML skills
 
-Maintain clean project structure
+Maintain a clean, professional project structure
 
-Build reusable tools that can be applied to real-world datasets
+Build reusable automation tools for real-world datasets
 
-Showcase the ability to automate repetitive ML tasks (cleaning, EDA, pipeline building)
+Showcase ability to automate repetitive ML tasks:
+
+Data cleaning
+
+Exploratory data analysis
+
+ML pipeline building
+
+🔜 Next Steps (Month 2+)
+
+Extend ML pipeline with feature engineering and hyperparameter tuning
+
+Add model versioning and tracking
+
+Build end-to-end projects combining cleaning, EDA, modeling, and deployment
+
+Apply advanced ML/AI techniques to practical datasets
