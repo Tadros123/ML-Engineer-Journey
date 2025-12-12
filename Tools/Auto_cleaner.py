@@ -3,10 +3,27 @@ import numpy as np
 from pathlib import Path
 
 class AutoDataCleaner:
-    def __init__(self, filepath: str):
-        self.filepath = Path(filepath)
-        self.df = pd.read_csv(self.filepath)
+    def __init__(self, filepath: str = None, df: pd.DataFrame = None):
+        """
+        Initialize AutoDataCleaner with either a file path or a DataFrame.
+        """
+        if df is not None:
+            self.df = df
+        elif filepath is not None:
+            # Resolve path relative to the script location
+            script_dir = Path(__file__).parent  # folder containing this script
+            self.filepath = (script_dir / filepath).resolve()
+            if not self.filepath.exists():
+                raise FileNotFoundError(f"{self.filepath} does not exist")
+            self.df = pd.read_csv(self.filepath)
+        else:
+            raise ValueError("You must provide either a filepath or a DataFrame")
+
         self.report = {}
+
+    def clean(self):
+        self.df = self.df.drop_duplicates()
+        return self.df
 
     def handle_missing(self, numeric_strategy="mean", categorical_strategy="most_frequent"):
         numeric_cols = self.df.select_dtypes(include=np.number).columns
@@ -59,8 +76,12 @@ class AutoDataCleaner:
 # Example usage
 # ---------------------------
 if __name__ == "__main__":
-    cleaner = AutoDataCleaner("../Data/Sample_data.csv")
+    sample_file = "../Data/Sample_data.csv"
+    cleaner = AutoDataCleaner(sample_file)
     cleaner.handle_missing().remove_duplicates().detect_outliers()
     report = cleaner.generate_report()
     print("Data Cleaning Report:", report)
-    cleaner.save_cleaned("../Data/Sample_data_cleaned.csv")
+
+    # Save cleaned file next to script
+    output_file = Path(__file__).parent / "../Data/Sample_data_cleaned.csv"
+    cleaner.save_cleaned(output_file)

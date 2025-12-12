@@ -16,3 +16,308 @@
 2025-12-06 23:31:38,851 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
 2025-12-06 23:32:46,142 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'Models/day1_Models.joblib'
 2025-12-06 23:36:03,815 - MLPipeline - INFO - Model saved to ../Models/day1_Models.joblib
+2025-12-07 13:38:04,762 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 13:38:11,602 - MLPipeline - ERROR - Data not prepared. Call prepare_data() first.
+2025-12-07 13:38:56,405 - MLPipeline - ERROR - Data not prepared. Call prepare_data() first.
+2025-12-07 13:39:05,109 - MLPipeline - INFO - Starting data preparation
+2025-12-07 13:39:05,455 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 13:39:12,670 - MLPipeline - INFO - Starting model training
+2025-12-07 13:39:13,388 - MLPipeline - INFO - Model training completed
+2025-12-07 13:39:13,389 - MLPipeline - INFO - Evaluating model
+2025-12-07 13:39:13,510 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 13:39:21,005 - MLPipeline - INFO - Model saved to ../Models/ML_Pipeline_Model.joblib
+2025-12-07 16:00:02,452 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:00:02,452 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:00:02,547 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:00:02,547 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:00:02,714 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:00:02,714 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:00:02,720 - MLPipeline - INFO - Starting model training
+2025-12-07 16:00:02,720 - MLPipeline - INFO - Starting model training
+2025-12-07 16:00:03,212 - MLPipeline - INFO - Model training completed
+2025-12-07 16:00:03,212 - MLPipeline - INFO - Model training completed
+2025-12-07 16:00:03,217 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:00:03,217 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:00:03,264 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:00:03,264 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:00:03,271 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:00:03,271 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:00:05,043 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:00:05,043 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:00:05,049 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'c:\\ML Engineer Journey\\Notebooks\\Models\\ML_Pipeline_Model.joblib'
+2025-12-07 16:00:05,049 - MLPipeline - ERROR - Error saving model: [Errno 2] No such file or directory: 'c:\\ML Engineer Journey\\Notebooks\\Models\\ML_Pipeline_Model.joblib'
+2025-12-07 16:06:36,612 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:06:36,612 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:06:36,612 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:06:36,617 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:06:36,617 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:06:36,617 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:06:36,644 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:06:36,644 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:06:36,644 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:06:36,652 - MLPipeline - INFO - Starting model training
+2025-12-07 16:06:36,652 - MLPipeline - INFO - Starting model training
+2025-12-07 16:06:36,652 - MLPipeline - INFO - Starting model training
+2025-12-07 16:06:37,061 - MLPipeline - INFO - Model training completed
+2025-12-07 16:06:37,061 - MLPipeline - INFO - Model training completed
+2025-12-07 16:06:37,061 - MLPipeline - INFO - Model training completed
+2025-12-07 16:06:37,065 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:06:37,065 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:06:37,065 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:06:37,115 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:06:37,115 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:06:37,115 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:06:37,124 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:06:37,124 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:06:37,124 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:06:39,226 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:06:39,226 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:06:39,226 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:06:39,325 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:06:39,325 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:06:39,325 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:06:39,333 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:06:39,333 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:06:39,333 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:10:56,086 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:10:56,086 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:10:56,086 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:10:56,086 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:10:56,095 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:10:56,095 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:10:56,095 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:10:56,095 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:10:56,119 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:10:56,119 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:10:56,119 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:10:56,119 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:10:56,128 - MLPipeline - INFO - Starting model training
+2025-12-07 16:10:56,128 - MLPipeline - INFO - Starting model training
+2025-12-07 16:10:56,128 - MLPipeline - INFO - Starting model training
+2025-12-07 16:10:56,128 - MLPipeline - INFO - Starting model training
+2025-12-07 16:10:56,851 - MLPipeline - INFO - Model training completed
+2025-12-07 16:10:56,851 - MLPipeline - INFO - Model training completed
+2025-12-07 16:10:56,851 - MLPipeline - INFO - Model training completed
+2025-12-07 16:10:56,851 - MLPipeline - INFO - Model training completed
+2025-12-07 16:10:56,860 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:10:56,860 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:10:56,860 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:10:56,860 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:10:56,914 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:10:56,914 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:10:56,914 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:10:56,914 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:10:56,927 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:10:56,927 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:10:56,927 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:10:56,927 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:10:58,608 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:10:58,608 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:10:58,608 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:10:58,608 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:10:58,668 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:10:58,668 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:10:58,668 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:10:58,668 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:10:58,677 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:10:58,677 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:10:58,677 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:10:58,677 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:15:25,220 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:15:25,220 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:15:25,220 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:15:25,220 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:15:25,220 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:15:25,234 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:15:25,234 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:15:25,234 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:15:25,234 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:15:25,234 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:15:25,264 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:15:25,264 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:15:25,264 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:15:25,264 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:15:25,264 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:15:25,276 - MLPipeline - INFO - Starting model training
+2025-12-07 16:15:25,276 - MLPipeline - INFO - Starting model training
+2025-12-07 16:15:25,276 - MLPipeline - INFO - Starting model training
+2025-12-07 16:15:25,276 - MLPipeline - INFO - Starting model training
+2025-12-07 16:15:25,276 - MLPipeline - INFO - Starting model training
+2025-12-07 16:15:25,744 - MLPipeline - INFO - Model training completed
+2025-12-07 16:15:25,744 - MLPipeline - INFO - Model training completed
+2025-12-07 16:15:25,744 - MLPipeline - INFO - Model training completed
+2025-12-07 16:15:25,744 - MLPipeline - INFO - Model training completed
+2025-12-07 16:15:25,744 - MLPipeline - INFO - Model training completed
+2025-12-07 16:15:25,761 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:15:25,761 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:15:25,761 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:15:25,761 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:15:25,761 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:15:25,858 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:15:25,858 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:15:25,858 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:15:25,858 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:15:25,858 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:15:25,868 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:15:25,868 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:15:25,868 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:15:25,868 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:15:25,868 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:15:27,733 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:15:27,733 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:15:27,733 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:15:27,733 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:15:27,733 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:15:27,865 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:15:27,865 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:15:27,865 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:15:27,865 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:15:27,865 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:15:27,902 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:15:27,902 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:15:27,902 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:15:27,902 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:15:27,902 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,231 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,246 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,278 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,291 - MLPipeline - INFO - Starting model training
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,956 - MLPipeline - INFO - Model training completed
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:24,972 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,027 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:25,038 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:26,875 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,032 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:16:27,044 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,940 - MLPipeline - INFO - Initialized pipeline with config: {'test_size': 0.2, 'random_state': 42, 'scaler_type': 'standard', 'model_type': 'random_forest', 'model_params': {'n_estimators': 100, 'max_depth': 10, 'random_state': 42}, 'cv_folds': 5, 'log_level': 'INFO'}
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,957 - MLPipeline - INFO - Starting data preparation
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:05,987 - MLPipeline - INFO - Data split - Train: (455, 30), Test: (114, 30)
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,008 - MLPipeline - INFO - Starting model training
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,629 - MLPipeline - INFO - Model training completed
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,641 - MLPipeline - INFO - Evaluating model
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,700 - MLPipeline - INFO - Evaluation metrics: {'accuracy': 0.9649122807017544, 'precision': 0.9652053622194477, 'recall': 0.9649122807017544, 'f1': 0.9647382344750765}
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:06,710 - MLPipeline - INFO - Starting 5-fold cross-validation
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,428 - MLPipeline - INFO - Cross-validation scores: {'mean_cv_score': np.float64(0.9582417582417582), 'std_cv_score': np.float64(0.017582417582417565)}
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,500 - MLPipeline - INFO - Model saved to c:\ML Engineer Journey\Models\ML_Pipeline_Model.joblib
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
+2025-12-07 16:17:08,512 - MLPipeline - INFO - Config saved to c:\ML Engineer Journey\Models\ML_Pipeline_Config.json
