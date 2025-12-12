@@ -1,0 +1,9 @@
+Name,Age,Gender,Salary,Department,JoiningDate
+Alice,28.0,Female,55000.0,HR,2020-01-15
+Bob,35.0,Male,65000.0,IT,2019-03-12
+Charlie,,Male,70000.0,Finance,2018-07-23
+Diana,30.0,Female,,IT,2021-05-10
+Ethan,40.0,Male,80000.0,HR,2017-11-01
+Fay,25.0,Female,50000.0,Finance,2022-02-20
+George,38.0,Male,75000.0,IT,2016-09-15
+Hannah,,Female,62000.0,HR,2020-12-05
