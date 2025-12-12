@@ -1,6 +1,8 @@
 pandas
 numpy
 scikit-learn
+streamlit
 joblib
 ydata-profiling
 matplotlib
+seaborn
