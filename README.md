@@ -1,11 +1,12 @@
+```
 # 🧠 ML Engineer Portfolio — Month 1
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)  
 [![Scikit-learn](https://img.shields.io/badge/Scikit--learn-ML-orange?logo=scikit-learn)](https://scikit-learn.org/)
 
-This repository demonstrates my hands-on **Machine Learning Engineering** skills by building **flexible, reusable pipelines and tools**.  
-The focus is on automating common ML tasks such as **data cleaning**, **exploratory data analysis (EDA)**, and **model pipelines**.
+This repository showcases my **Machine Learning Engineering** skills by building **flexible, reusable pipelines and tools**.  
+Focus: Automating common ML tasks such as **data cleaning**, **exploratory data analysis (EDA)**, and **model pipelines**.
 
 ---
 
@@ -14,18 +15,17 @@ The focus is on automating common ML tasks such as **data cleaning**, **explorat
 ### 1️⃣ ML Pipeline Template
 **Location:** `tools/pipeline_template.py`
 
-A reusable **scikit-learn workflow template** for ML projects.
+A reusable **scikit-learn ML workflow template**.
 
 **Features:**
 
-- Load CSV datasets
-- Preprocess data (scaling, encoding, handle missing values)
-- Train/test split
-- Model training and evaluation metrics
+- 🗂 **Load CSV datasets**  
+- ⚡ **Preprocess data** (scaling, encoding, handle missing values)  
+- 🧪 **Train/test split**  
+- 📊 **Model training and evaluation metrics**
 
 **Purpose:**  
-
-Provides a **consistent ML workflow** for building and testing models across datasets, saving time and ensuring best practices.
+Provides a **consistent workflow** for building and testing ML models across datasets, saving time and ensuring best practices.
 
 ---
 
@@ -36,12 +36,12 @@ Automatically cleans messy CSV files and generates a **data-quality report**.
 
 **Features:**
 
-- Fill missing numeric values with column mean
-- Fill missing categorical values with the most frequent category
-- Remove duplicate rows
-- Detect and remove outliers using **IQR**
-- Generate a **JSON report** of cleaning operations
-- Save cleaned data for downstream tasks
+- 🔢 Fill missing numeric values with column mean  
+- 🏷️ Fill missing categorical values with the most frequent category  
+- 🗑️ Remove duplicate rows  
+- 📉 Detect and remove outliers using **IQR**  
+- 📄 Generate a **JSON report** of cleaning operations  
+- 💾 Save cleaned data for downstream tasks
 
 **Usage Example:**
 
@@ -50,73 +50,69 @@ from Auto_cleaner import AutoDataCleaner
 
 cleaner = AutoDataCleaner("data/sample_data.csv")
 report = cleaner.run_cleaning()
+```
 
-Outputs:
+**Outputs:**
 
-data/cleaned_data.csv
+- ✅ `data/cleaned_data.csv`  
+- ✅ `reports/cleaning_report.json`
 
-reports/cleaning_report.json
+---
 
-3️⃣ Automated EDA App 🔍
+### 3️⃣ Automated EDA App 🔍
+**Location:** `auto_eda_app.py`
 
-Location: auto_eda_app.py
+An **interactive Streamlit app** for automated exploratory data analysis on **CSV or Excel datasets**.
 
-An interactive Streamlit app for automated exploratory data analysis on CSV or Excel datasets.
+**Features:**
 
-Features:
+- 📂 Upload and preview datasets  
+- 🧮 Generate **statistical summaries** for numeric and categorical columns  
+- 📊 Display **categorical value counts** interactively  
+- 📈 Generate visualizations:  
+  - 🟦 Histograms (numeric columns)  
+  - 📦 Boxplots (numeric columns)  
+  - 🌐 Correlation heatmaps  
+- 🎛️ **Optional selection** of visualizations  
+- 📥 Download full EDA report as a **ZIP** containing CSV summaries and plots
 
-Upload and preview datasets
+**Usage:**
 
-Generate statistical summaries for numeric and categorical columns
-
-Display categorical value counts interactively
-
-Generate visualizations:
-
-Histograms (numeric columns)
-
-Boxplots (numeric columns)
-
-Correlation heatmaps
-
-Optional selection of visualizations to generate
-
-Download the full EDA report as a ZIP containing CSV summaries and plots
-
-Usage:
-
+```bash
 streamlit run auto_eda_app.py
+```
 
-🗂 Project Structure
+---
+
+## 🗂 Project Structure
+
+```
 /projects   # Future mini-projects
 /tools      # Scripts, Auto_cleaner, pipeline templates
 /data       # Sample datasets
 /models     # Saved ML models/templates
 /notebooks  # Exploratory analysis or experiments
 /reports    # Data cleaning or EDA reports
+```
 
-🎯 Purpose of This Repository
+---
 
-Demonstrate hands-on ML skills
+## 🎯 Purpose of This Repository
 
-Maintain a clean, professional project structure
+- 💡 Demonstrate **hands-on ML skills**  
+- 🧹 Maintain a **clean, professional project structure**  
+- 🔧 Build **reusable automation tools** for real-world datasets  
+- 🚀 Showcase ability to **automate repetitive ML tasks**:  
+  - 🧹 Data cleaning  
+  - 🔍 Exploratory data analysis  
+  - ⚡ ML pipeline building
 
-Build reusable automation tools for real-world datasets
+---
 
-Showcase ability to automate repetitive ML tasks:
+## 🔜 Next Steps (Month 2+)
 
-Data cleaning
-
-Exploratory data analysis
-
-ML pipeline building
-
-🔜 Next Steps (Month 2+)
-
-Extend ML pipeline with feature engineering and hyperparameter tuning
-
-Add model versioning and tracking
-
-Build end-to-end projects combining cleaning, EDA, modeling, and deployment
-
-Apply advanced ML/AI techniques to practical datasets
+- 🛠️ Extend ML pipeline with **feature engineering** and **hyperparameter tuning**  
+- 📌 Add **model versioning and tracking**  
+- 🌐 Build **end-to-end projects** combining cleaning, EDA, modeling, and deployment  
+- 🤖 Apply **advanced ML/AI techniques** to practical datasets
+```
