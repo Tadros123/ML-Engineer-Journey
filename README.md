@@ -20,7 +20,36 @@ A reusable machine learning workflow template built with `scikit-learn`.
 
 **Purpose:** Provides a consistent structure for building and testing ML models across different datasets, saving time and ensuring best practices.
 
+### 🧹 Auto Data Cleaner
+**Location:** `tools/Auto_cleaner.py`
+
+A small tool that cleans messy CSV files automatically.
+
+**Features**
+- Fills missing numeric values using the column mean
+- Fills missing categorical values using the most frequent category
+- Removes duplicate rows
+- Detects and removes outliers using IQR
+- Generates a small data-quality report
+- Saves both cleaned data and a JSON report
+
 ---
+
+🔍 How It Works
+
+You pass it a CSV file:
+
+from Auto_cleaner import AutoDataCleaner
+
+cleaner = AutoDataCleaner("data/sample_data.csv")
+report = cleaner.run_cleaning()
+
+
+This automatically creates:
+
+data/cleaned_data.csv
+
+reports/cleaning_report.json
 
 ## Project Structure
 
@@ -30,19 +59,6 @@ A reusable machine learning workflow template built with `scikit-learn`.
 /models # Saved ML models/templates
 /notebooks # Exploratory analysis or experiments
 
-
----
-
-## Upcoming Additions
-
-### Automated Data Cleaning Tool
-- A script for preprocessing CSV datasets automatically  
-- Features:
-  - Handle missing values  
-  - Remove duplicates  
-  - Detect outliers  
-  - Generate summary reports  
-- Optional: Streamlit interface for interactive use
 
 ---
 
