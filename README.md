@@ -29,7 +29,7 @@ Provides a **consistent workflow** for building and testing ML models across dat
 
 ---
 
-### 2️⃣ Auto Data Cleaner 🧹
+### 2️⃣ Auto Data Cleaner 🧹  
 **Location:** `tools/Auto_cleaner.py`
 
 Automatically cleans messy CSV files and generates a **data-quality report**.
@@ -50,7 +50,7 @@ from Auto_cleaner import AutoDataCleaner
 
 cleaner = AutoDataCleaner("data/sample_data.csv")
 report = cleaner.run_cleaning()
-```
+
 
 **Outputs:**
 
