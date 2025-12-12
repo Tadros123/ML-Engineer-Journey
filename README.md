@@ -1,5 +1,5 @@
 ```
- 🧠 ML Engineer Portfolio — Month 1
+** 🧠 ML Engineer Portfolio — Month 1 **
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)](https://www.python.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)](https://streamlit.io/)  
