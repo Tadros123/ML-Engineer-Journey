@@ -1,4 +1,3 @@
-```
 # 🧠 ML Engineer Portfolio — Month 1
 
 [![Python](https://img.shields.io/badge/Python-3.13-blue?logo=python)](https://www.python.org/)  
@@ -12,7 +11,9 @@ Focus: Automating common ML tasks such as **data cleaning**, **exploratory data 
 
 ## 🚀 Completed Projects / Tools
 
-### 1️⃣ ML Pipeline Template
+---
+
+### 1️⃣ ML Pipeline Template  
 **Location:** `tools/pipeline_template.py`
 
 A reusable **scikit-learn ML workflow template**.
@@ -20,7 +21,7 @@ A reusable **scikit-learn ML workflow template**.
 **Features:**
 
 - 🗂 **Load CSV datasets**  
-- ⚡ **Preprocess data** (scaling, encoding, handle missing values)  
+- ⚡ **Preprocess data** (scaling, encoding, handling missing values)  
 - 🧪 **Train/test split**  
 - 📊 **Model training and evaluation metrics**
 
@@ -29,8 +30,7 @@ Provides a **consistent workflow** for building and testing ML models across dat
 
 ---
 
-### 2️⃣ Auto Data Cleaner 🧹
-
+### 2️⃣ Auto Data Cleaner 🧹  
 **Location:** `tools/Auto_cleaner.py`
 
 Automatically cleans messy CSV files and generates a **data-quality report**.
@@ -46,22 +46,21 @@ Automatically cleans messy CSV files and generates a **data-quality report**.
 
 **Usage Example:**
 
-```python
+~~~python
 from Auto_cleaner import AutoDataCleaner
 
 cleaner = AutoDataCleaner("data/sample_data.csv")
 report = cleaner.run_cleaning()
-
-
+~~~
 
 **Outputs:**
 
 - ✅ `data/cleaned_data.csv`  
-- ✅ `reports/cleaning_report.json`
+- 📄 `reports/cleaning_report.json`
 
 ---
 
-### 3️⃣ Automated EDA App 🔍
+### 3️⃣ Automated EDA App 🔍  
 **Location:** `auto_eda_app.py`
 
 An **interactive Streamlit app** for automated exploratory data analysis on **CSV or Excel datasets**.
@@ -70,19 +69,19 @@ An **interactive Streamlit app** for automated exploratory data analysis on **CS
 
 - 📂 Upload and preview datasets  
 - 🧮 Generate **statistical summaries** for numeric and categorical columns  
-- 📊 Display **categorical value counts** interactively  
-- 📈 Generate visualizations:  
-  - 🟦 Histograms (numeric columns)  
-  - 📦 Boxplots (numeric columns)  
+- 📊 Display **categorical value counts**  
+- 📈 Visualizations:  
+  - 🟦 Histograms  
+  - 📦 Boxplots  
   - 🌐 Correlation heatmaps  
-- 🎛️ **Optional selection** of visualizations  
+- 🎛️ User-selectable analysis options  
 - 📥 Download full EDA report as a **ZIP** containing CSV summaries and plots
 
 **Usage:**
 
-```bash
+~~~bash
 streamlit run auto_eda_app.py
-```
+~~~
 
 ---
 
@@ -101,20 +100,19 @@ streamlit run auto_eda_app.py
 
 ## 🎯 Purpose of This Repository
 
-- 💡 Demonstrate **hands-on ML skills**  
+- 💡 Demonstrate **hands-on ML engineering skills**  
 - 🧹 Maintain a **clean, professional project structure**  
-- 🔧 Build **reusable automation tools** for real-world datasets  
-- 🚀 Showcase ability to **automate repetitive ML tasks**:  
+- 🔧 Build **reusable automation tools**  
+- 🚀 Automate repetitive ML tasks:  
   - 🧹 Data cleaning  
   - 🔍 Exploratory data analysis  
-  - ⚡ ML pipeline building
+  - ⚡ ML pipeline creation
 
 ---
 
 ## 🔜 Next Steps (Month 2+)
 
-- 🛠️ Extend ML pipeline with **feature engineering** and **hyperparameter tuning**  
-- 📌 Add **model versioning and tracking**  
-- 🌐 Build **end-to-end projects** combining cleaning, EDA, modeling, and deployment  
-- 🤖 Apply **advanced ML/AI techniques** to practical datasets
-```
+- 🛠️ Add **feature engineering** + **hyperparameter tuning**  
+- 📌 Implement **model versioning & tracking**  
+- 🌐 Build end-to-end ML projects  
+- 🤖 Add advanced ML/AI techniques for real-world datasets  
